@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Saumya 💕 With Love</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Hearts -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="images/IMG-20251114-WA0012.webp" alt="Pankaj & Saumya" class="hero-photo" onerror="this.classList.add('error'); this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%23FFD1DC%22 width=%22200%22 height=%22200%22/><text x=%22100%22 y=%22100%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2240%22>💕</text></svg>'">
+            <h1>For Saumya 💕</h1>
+            <h2>With Love, Pankaj</h2>
+            <p class="hero-subtitle">Every moment with you is a precious gift</p>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+        <h2 class="section-title">Our Journey Together</h2>
+        <p class="countdown-label">Since July 1, 2025 💕</p>
+        <div class="countdown" id="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">0</div>
+                <div class="countdown-text">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">0</div>
+                <div class="countdown-text">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">0</div>
+                <div class="countdown-text">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">0</div>
+                <div class="countdown-text">Seconds</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section>
+        <h2 class="section-title">Our Memories 📸</h2>
+        <div class="gallery" id="gallery"></div>
+    </section>
+
+    <!-- Video Memories -->
+    <section class="video-section">
+        <h2 class="section-title">Video Memories 🎬</h2>
+        <div class="videos-grid" id="videosGrid"></div>
+    </section>
+
+    <!-- Love Notes -->
+    <section>
+        <h2 class="section-title">Love Notes for Saumya 💌</h2>
+        <div class="love-notes">
+            <div class="love-note">
+                <p>Saumya, you are the most beautiful thing that ever happened to me. Every day with you feels like a dream come true. I love you more than words can express!</p>
+                <div class="author">- Forever yours, Pankaj</div>
+            </div>
+            <div class="love-note">
+                <p>Looking into your eyes, I see my entire future. You are not just my girlfriend, you are my best friend, my soulmate, and the love of my life.</p>
+                <div class="author">- With all my heart, Pankaj</div>
+            </div>
+            <div class="love-note">
+                <p>Thank you for being you, Saumya. Your smile brightens my darkest days, and your love completes me. I promise to love you forever.</p>
+                <div class="author">- Always and forever, Pankaj</div>
+            </div>
+            <div class="love-note">
+                <p>Saumya, you are my today and all of my tomorrows. I fall in love with you more and more each day. You are my everything.</p>
+                <div class="author">- Loving you endlessly, Pankaj</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with 💕 by Pankaj for Saumya</p>
+        <p>© 2025 - Our Love Story</p>
+    </footer>
+
+    <!-- Music Toggle -->
+    <button class="music-toggle" id="musicToggle" title="Play/Pause Music">
+        <span id="musicIcon">🎵</span>
+    </button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">×</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+        <div class="lightbox-content" id="lightboxContent"></div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="bgMusic" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
